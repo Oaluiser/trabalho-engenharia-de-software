@@ -1,0 +1,55 @@
+Pergunta: Qual é o nome do estádio que sediou a final da Copa do Mundo de 2018?
+Resposta: 3
+1 - Estádio Santiago Bernabéu
+2 - Estádio Maracanã
+3 - Estádio Luzhniki
+4 - Estádio Wembley
+
+Pergunta: Qual país venceu a Copa do Mundo de Futebol em 2010?
+Resposta: 3
+1 - Brasil
+2 - Argentina
+3 - Espanha
+4 - Alemanha
+
+Pergunta: Qual jogador é conhecido como "O Mágico" e é uma lenda do futebol argentino?
+Resposta: 2
+1 - Lionel Messi
+2 - Diego Maradona
+3 - Cristiano Ronaldo
+4 - Neymar Jr.
+
+Pergunta: Quantas vezes a seleção italiana venceu a Copa do Mundo de Futebol?
+Resposta: 4
+1 - Uma vez
+2 - Duas vezes
+3 - Três vezes
+4 - Quatro vezes
+
+Pergunta: Qual é o nome do jogador português que é considerado um dos maiores artilheiros da história do futebol?
+Resposta: 1
+1 - Cristiano Ronaldo
+2 - Lionel Messi
+3 - Neymar Jr.
+4 - Robert Lewandowski
+
+Pergunta: Em que país é originário o famoso clube de futebol Real Madrid?
+Resposta: 1
+1 - Espanha
+2 - Itália
+3 - Inglaterra
+4 - Alemanha
+
+Pergunta: Qual é o nome do troféu concedido ao artilheiro da temporada na maioria das ligas de futebol europeias?
+Resposta: 1
+1 - Chuteira de Ouro
+2 - Bola de Ouro
+3 - Luva de Ouro
+4 - Troféu de Ouro
+
+Pergunta: Qual é o termo usado para descrever um gol marcado com a cabeça?
+Resposta: 1
+1 - Gol de cabeça
+2 - Gol de pênalti
+3 - Gol de bicicleta
+4 - Gol olímpico

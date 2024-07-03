@@ -1,0 +1,55 @@
+Pergunta: Qual é o único país a ganhar a Copa do Mundo de Futebol em quatro continentes diferentes?
+Resposta: 1
+1 - Brasil
+2 - Argentina
+3 - Alemanha
+4 - Itália
+
+Pergunta: Quem é o único jogador a marcar em três finais de Copa do Mundo de Futebol?
+Resposta: 1
+1 - Pelé
+2 - Diego Maradona
+3 - Lionel Messi
+4 - Zinedine Zidane
+
+Pergunta: Qual é o nome do jogador de futebol que marcou o gol mais rápido da história da Copa do Mundo, em 2002?
+Resposta: 2
+1 - Ronaldo Nazário
+2 - Hakan Şükür
+3 - Christian Vieri
+4 - Roberto Baggio
+
+Pergunta: Qual foi o primeiro país africano a vencer a Copa Africana das Nações?
+Resposta: 4
+1 - Gana
+2 - Argélia
+3 - Nigéria
+4 - Camarões
+
+Pergunta: Qual é o nome do único jogador a marcar em todas as fases de uma mesma edição da Copa do Mundo?
+Resposta: 3
+1 - Cristiano Ronaldo
+2 - Miroslav Klose
+3 - Pelé
+4 - Lionel Messi
+
+Pergunta: Qual foi o primeiro clube de futebol fora da Europa e da América do Sul a vencer o título da Copa Intercontinental?
+Resposta: 3
+1 - Al-Ahly Sporting Club (Egito)
+2 - Auckland City FC (Nova Zelândia)
+3 - Club Nacional de Football (Uruguai)
+4 - Auckland United FC (Nova Zelândia)
+
+Pergunta: Qual jogador detém o recorde de mais gols marcados em uma única edição da Liga dos Campeões da UEFA?
+Resposta: 3
+1 - Lionel Messi
+2 - Cristiano Ronaldo
+3 - Robert Lewandowski
+4 - Ferenc Puskás
+
+Pergunta: Quem foi o técnico da seleção francesa de futebol que venceu a Copa do Mundo de 1998?
+Resposta: 1
+1 - Aimé Jacquet
+2 - Didier Deschamps
+3 - Michel Platini
+4 - Zinedine Zidane

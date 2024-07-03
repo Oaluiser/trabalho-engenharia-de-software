@@ -1,0 +1,55 @@
+Pergunta: Qual país sediou a Copa do Mundo de Futebol de 1986?
+Resposta: 3
+1 - Brasil
+2 - Argentina
+3 - México
+4 - Itália
+
+Pergunta: Quantas vezes a seleção brasileira de futebol ganhou a Copa América até 2022?
+Resposta: 2
+1 - 7 vezes
+2 - 9 vezes
+3 - 5 vezes
+4 - 11 vezes
+
+Pergunta: Qual é o único jogador a ganhar o prêmio de Melhor do Mundo da FIFA em cinco ocasiões até 2022?
+Resposta: 2
+1 - Diego Maradona
+2 - Lionel Messi
+3 - Cristiano Ronaldo
+4 - Pelé
+
+Pergunta: Quem é o técnico da seleção inglesa de futebol que venceu a Copa do Mundo de 1966?
+Resposta: 2
+1 - Bobby Charlton
+2 - Alf Ramsey
+3 - Geoff Hurst
+4 - Gordon Banks
+
+Pergunta: Qual jogador de futebol é conhecido como "El Pibe"?
+Resposta: 2
+1 - Lionel Messi
+2 - Diego Maradona
+3 - Cristiano Ronaldo
+4 - Neymar Jr.
+
+Pergunta: Qual é o nome da competição internacional de clubes de futebol da América do Sul?
+Resposta: 2
+1 - Liga dos Campeões da CONCACAF
+2 - Copa Libertadores
+3 - Copa Sul-Americana
+4 - Copa América
+
+Pergunta: Quem é o maior artilheiro da história da Liga dos Campeões da UEFA até 2022?
+Resposta: 2
+1 - Lionel Messi
+2 - Cristiano Ronaldo
+3 - Raúl González
+4 - Robert Lewandowski
+
+Pergunta: Qual é o nome do troféu concedido ao melhor jogador da final da Copa do Mundo de Futebol?
+Resposta: 1
+1 - Bola de Ouro
+2 - Bola de Prata
+3 - Bola de Bronze
+4 - Bola de Ouro da FIFA
