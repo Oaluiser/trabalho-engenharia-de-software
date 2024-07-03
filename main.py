@@ -3,19 +3,23 @@ import random
 pontuacao = 0
 
 
-def sorteiaPergunta():
+# Aluisio Pereira - Renomeia a função sorteiaPergunta para iniciaJogo, seguindo os principios de clean code, onde o nome da função deve ser um verbo que descreva o que a função faz.
+def iniciaJogo():
     global pontuacao
     if pontuacao < 4:
         arquivo = open(
-            "/Users/oaluiser/Documents/GitHub/senac-analise-e-desenvolvimento-de-sistemas/Terceiro Semestre/Algoritmos e Estrutura de Dados/trabalho1/facil.txt", "r"
+            "/Users/oaluiser/Documents/GitHub/senac-analise-e-desenvolvimento-de-sistemas/Terceiro Semestre/Algoritmos e Estrutura de Dados/trabalho1/facil.txt",
+            "r",
         )
     elif pontuacao < 8:
         arquivo = open(
-            "/Users/oaluiser/Documents/GitHub/senac-analise-e-desenvolvimento-de-sistemas/Terceiro Semestre/Algoritmos e Estrutura de Dados/trabalho1/medio.txt", "r"
+            "/Users/oaluiser/Documents/GitHub/senac-analise-e-desenvolvimento-de-sistemas/Terceiro Semestre/Algoritmos e Estrutura de Dados/trabalho1/medio.txt",
+            "r",
         )
     else:
         arquivo = open(
-            "/Users/oaluiser/Documents/GitHub/senac-analise-e-desenvolvimento-de-sistemas/Terceiro Semestre/Algoritmos e Estrutura de Dados/trabalho1/.txt", "r"
+            "/Users/oaluiser/Documents/GitHub/senac-analise-e-desenvolvimento-de-sistemas/Terceiro Semestre/Algoritmos e Estrutura de Dados/trabalho1/.txt",
+            "r",
         )
 
     perguntas = arquivo.readlines()
@@ -46,7 +50,7 @@ def sorteiaPergunta():
     if resposta == arrayRespostas[numero][-2]:
         print("Resposta correta")
         pontuacao += 1
-        sorteiaPergunta()
+        iniciaJogo()
     else:
         print("Resposta errada")
         print("A resposta correta era: ", arrayRespostas[numero])
@@ -67,7 +71,7 @@ while True:
     opcao = input("Escolha uma opção: ")
 
     if opcao == "1":
-        sorteiaPergunta()
+        iniciaJogo()
     elif opcao == "2":
         print("Ranking:")
         arquivo = open(
