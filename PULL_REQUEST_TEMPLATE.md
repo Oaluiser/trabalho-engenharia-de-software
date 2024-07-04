@@ -4,6 +4,7 @@
 ![rodrigo](prints/rodrigo.png)
 ![dieizon](prints/dieizon.png)
 ![matheus](prints/matheus.png)
+![felipe](prints/felipe.png)
 
 # Descrição da ferramenta de testes utilizada
 
