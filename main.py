@@ -1,5 +1,10 @@
 import random
 
+# caminho = "/Users/oaluiser/Documents/GitHub/senac-analise-e-desenvolvimento-de-sistemas/Terceiro Semestre/Algoritmos e Estrutura de Dados/trabalho1/"
+
+# Felipe Radmann - reaproveitando variavel!
+
+caminho = "C:/Users/TIBUFF/trabalho-engenharia-de-software/"
 pontuacao = 0
 
 
@@ -27,17 +32,17 @@ def randomPerguntas():
     global pontuacao
     if pontuacao < 4:
         arquivo = open(
-            "/Users/oaluiser/Documents/GitHub/senac-analise-e-desenvolvimento-de-sistemas/Terceiro Semestre/Algoritmos e Estrutura de Dados/trabalho1/facil.txt",
+            caminho + "facil.txt",
             "r",
         )
     elif pontuacao < 8:
         arquivo = open(
-            "/Users/oaluiser/Documents/GitHub/senac-analise-e-desenvolvimento-de-sistemas/Terceiro Semestre/Algoritmos e Estrutura de Dados/trabalho1/medio.txt",
+            caminho + "medio.txt",
             "r",
         )
     else:
         arquivo = open(
-            "/Users/oaluiser/Documents/GitHub/senac-analise-e-desenvolvimento-de-sistemas/Terceiro Semestre/Algoritmos e Estrutura de Dados/trabalho1/dificil.txt",
+            caminho + "dificil.txt",
             "r",
         )
         
@@ -76,7 +81,7 @@ def iniciaJogo():
         print("Sua pontuação foi: ", pontuacao)
         nome = input("Digite seu nome:")
         open(
-            "/Users/oaluiser/Documents/GitHub/senac-analise-e-desenvolvimento-de-sistemas/Terceiro Semestre/Algoritmos e Estrutura de Dados/trabalho1/ranking.txt",
+            caminho + "ranking.txt",
             "a",
         ).write(nome + " " + str(pontuacao) + "\n")
         pontuacao = 0
@@ -92,7 +97,7 @@ while True:
     elif opcao == "2":
         print("Ranking:")
         arquivo = open(
-            "/Users/oaluiser/Documents/GitHub/senac-analise-e-desenvolvimento-de-sistemas/Terceiro Semestre/Algoritmos e Estrutura de Dados/trabalho1/ranking.txt",
+            caminho + "ranking.txt",
             "r",
         )
         ranking = arquivo.readlines()
