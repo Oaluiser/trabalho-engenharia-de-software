@@ -2,8 +2,11 @@ import random
 
 pontuacao = 0
 
+# Dieizon Oliveira - Cria uma função exibeAlternativas para ser chamada logo abaixo, substituindo o for existente anteriormente, seguindo os principios de clean code, tornando o código mais legivel e de mais fácil entendimento.
+def exibeAlternativas(alternativas, numero):
+    for i in range(0, 4):
+        print(alternativas[numero][i])
 
-# Aluisio Pereira - Renomeia a função sorteiaPergunta para iniciaJogo, seguindo os principios de clean code, onde o nome da função deve ser um verbo que descreva o que a função faz.
 def iniciaJogo():
     global pontuacao
     if pontuacao < 4:
@@ -18,7 +21,7 @@ def iniciaJogo():
         )
     else:
         arquivo = open(
-            "/Users/oaluiser/Documents/GitHub/senac-analise-e-desenvolvimento-de-sistemas/Terceiro Semestre/Algoritmos e Estrutura de Dados/trabalho1/.txt",
+            "/Users/oaluiser/Documents/GitHub/senac-analise-e-desenvolvimento-de-sistemas/Terceiro Semestre/Algoritmos e Estrutura de Dados/trabalho1/dificil.txt",
             "r",
         )
 
@@ -43,8 +46,7 @@ def iniciaJogo():
 
     numero = random.randint(0, 7)
     print(arrayPerguntas[numero])
-    for i in range(0, 4):
-        print(arrayAlternativas[numero][i])
+    exibeAlternativas(arrayAlternativas, numero)
     resposta = input("Digite a resposta: ")
 
     if resposta == arrayRespostas[numero][-2]:
@@ -61,7 +63,6 @@ def iniciaJogo():
             "a",
         ).write(nome + " " + str(pontuacao) + "\n")
         pontuacao = 0
-
 
 while True:
     print("Bem-vindo ao Quiz da Bola")
