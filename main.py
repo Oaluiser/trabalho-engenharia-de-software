@@ -2,6 +2,7 @@ import random
 
 pontuacao = 0
 
+
 # Rodrigo Gastaud - Cria uma função apenas para converter os dados dos arquivos em listas, seguindo os principios de clean code, onde uma função deve ter um único propósito e executá-lo bem.
 def converteParaPergunta(listaPerguntas, listaRespostas, listaAlternativas, arquivo):
     for i in range(0, 8):
@@ -21,7 +22,8 @@ def exibeAlternativas(alternativas, numero):
     for i in range(0, 4):
         print(alternativas[numero][i])
 
-def iniciaJogo():
+# Matheus Duarte - Cria uma função randomPerguntas que acessa os arquivos txt, em seguida armazena em arrays usando o função converteParaPergunta e rondomiza a ordem que as perguntas seram exibidas retornado os arrays e numero randomizado
+def randomPerguntas():
     global pontuacao
     if pontuacao < 4:
         arquivo = open(
@@ -38,7 +40,7 @@ def iniciaJogo():
             "/Users/oaluiser/Documents/GitHub/senac-analise-e-desenvolvimento-de-sistemas/Terceiro Semestre/Algoritmos e Estrutura de Dados/trabalho1/dificil.txt",
             "r",
         )
-
+        
     perguntas = arquivo.readlines()
     arquivo.close()
 
@@ -48,7 +50,18 @@ def iniciaJogo():
 
     converteParaPergunta(arrayPerguntas,arrayRespostas,arrayAlternativas, perguntas)
 
+
     numero = random.randint(0, 7)
+    return arrayPerguntas, arrayRespostas, arrayAlternativas, numero
+
+
+
+def iniciaJogo():
+    global pontuacao
+    
+    arrayPerguntas, arrayRespostas, arrayAlternativas, numero = randomPerguntas()
+
+    print(numero)
     print(arrayPerguntas[numero])
     exibeAlternativas(arrayAlternativas, numero)
     resposta = input("Digite a resposta: ")
@@ -67,7 +80,6 @@ def iniciaJogo():
             "a",
         ).write(nome + " " + str(pontuacao) + "\n")
         pontuacao = 0
-
 while True:
     print("Bem-vindo ao Quiz da Bola")
     print("1 - Jogar")
