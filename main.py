@@ -2,6 +2,19 @@ import random
 
 pontuacao = 0
 
+# Rodrigo Gastaud - Cria uma função apenas para converter os dados dos arquivos em listas, seguindo os principios de clean code, onde uma função deve ter um único propósito e executá-lo bem.
+def converteParaPergunta(listaPerguntas, listaRespostas, listaAlternativas, arquivo):
+    for i in range(0, 8):
+        for j in range(0, 3):
+            if j == 0:
+                listaPerguntas.append(arquivo[i * 7 + j])
+            if j == 1:
+                listaRespostas.append(arquivo[i * 7 + j])
+            if j == 2:
+                alternativas = []
+                for k in range(0, 4):
+                    alternativas.append(arquivo[i * 7 + j + k])
+                listaAlternativas.append(alternativas)
 
 # Aluisio Pereira - Renomeia a função sorteiaPergunta para iniciaJogo, seguindo os principios de clean code, onde o nome da função deve ser um verbo que descreva o que a função faz.
 def iniciaJogo():
@@ -29,17 +42,7 @@ def iniciaJogo():
     arrayRespostas = []
     arrayAlternativas = []
 
-    for i in range(0, 8):
-        for j in range(0, 3):
-            if j == 0:
-                arrayPerguntas.append(perguntas[i * 7 + j])
-            if j == 1:
-                arrayRespostas.append(perguntas[i * 7 + j])
-            if j == 2:
-                alternativas = []
-                for k in range(0, 4):
-                    alternativas.append(perguntas[i * 7 + j + k])
-                arrayAlternativas.append(alternativas)
+    converteParaPergunta(arrayPerguntas,arrayRespostas,arrayAlternativas, perguntas)
 
     numero = random.randint(0, 7)
     print(arrayPerguntas[numero])
